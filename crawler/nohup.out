@@ -1,0 +1,6 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20131226/php_openssl.dll' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20131226/php_openssl.dll, 9): image not found in Unknown on line 0
+PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Users/sjh/work/project/yourpornhub/crawler/utils/medoo.php:150
+Stack trace:
+#0 /Users/sjh/work/project/yourpornhub/crawler/pornhub/data.php(16): medoo->__construct(Array)
+#1 {main}
+  thrown in /Users/sjh/work/project/yourpornhub/crawler/utils/medoo.php on line 150
